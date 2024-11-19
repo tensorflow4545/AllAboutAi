@@ -4,7 +4,7 @@ import requests
 app = FastAPI()
 
 # Pixabay API details
-PIXABAY_API_KEY = "47143945-7b880fce959a6f3adcd0cb5e3"  # Replace with your actual API key
+PIXABAY_API_KEY = ""  # Replace with your actual API key
 PIXABAY_URL = "https://pixabay.com/api/"
 
 @app.get("/")
