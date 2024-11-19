@@ -3,7 +3,7 @@ import requests
 
 app = FastAPI()
 
-PEXELS_API_KEY = "6QU9Y50sm6BN3jlCTaPOZouFMcLJ1XVgQfBAuujWtw5iS6WdgY7ekGR6"
+PEXELS_API_KEY = ""
 PEXELS_API_URL = "https://api.pexels.com/v1/search"
 
 @app.get("/get-images")
