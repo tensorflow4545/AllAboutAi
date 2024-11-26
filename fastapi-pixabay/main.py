@@ -1,12 +1,12 @@
 from fastapi import FastAPI, HTTPException
 import requests
 
-app = FastAPI(title="Wikimedia API")
+app = FastAPI()
 
-# Base URL for Wikimedia REST API
-WIKIPEDIA_API_URL = "https://en.wikipedia.org/api/rest_v1"
+# Pixabay API details
+PIXABAY_API_KEY = ""  # Replace with your actual API key
+PIXABAY_URL = "https://pixabay.com/api/"
 
-# Root Endpoint
 @app.get("/")
 def read_root():
     """
